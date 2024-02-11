@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.instapage{
+    height:auto;
+    background-color: rgb(8, 11, 1);
+}
+.insta{
+    height:auto;
+    background-color: rgba(8, 9, 4, 0.799);
+    display: flex;
+}
+.sidepage{
+    height: 712px;
+    width: 245px;
+    background-color: rgb(1, 1, 1);
+    color: white;
+}
+.sidepage1{
+    height: 717px;
+    width: 245px;
+    background-color: rgb(13, 12, 10);
+    color: white;
+    position:fixed;
+    border-right: 1px solid rgb(43, 42, 42);
+}
+.sidepage-logo{
+    height: 70px;
+    width: 120px;
+    margin-left: 18px;
+    margin-top: 30px;
+    
+}
+.logo{
+    background-image: url("instalogo.png");
+    height: 30px;
+    width: px;
+    background-size: cover;
+    background-color: rgb(18, 20, 20);
+    
+}
+
+.home{
+    margin-left: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 18px;
+    padding: 10px;
+}
+.home:hover{
+    background-color: rgb(224, 25, 125);
+    border-radius: 22px;
+    border: 1px solid;
+}
+.home-bottom1:hover{
+    background-color: rgb(224, 25, 125);
+    border-radius: 22px;
+    border: 1px solid;
+}
+.home-bottom:hover{
+    background-color: rgb(224, 25, 125);
+    border-radius: 22px;
+    border: 1px solid;
+}
+
+
+.home-logo{
+    background-image: url("girl8.jpg");
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-size: cover;
+    margin-left: 27px;
+}
+.home-bottom{
+    margin-top: 70px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.home-bottom1{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.mainpage{
+    height: auto;
+    width: 800px;
+    background-color: rgb(6, 6, 6);
+    color: white;
+   
+}
+.maintop-logos{
+    height: 130px;
+    width: 800px;
+    background-color: rgb(14, 10, 13);
+    color: white;
+    display: flex;
+}
+.mainka-logo{
+    background-image: url("girl1.jpg");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 25px;
+    border: 3px solid ;
+    border-color: rgb(11, 248, 98);
+   
+}
+#logo-names{
+   margin-top: 58px;
+   
+}
+.mainka-logo1{
+    background-image: url("girl7.jpg");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 25px;
+    border: 3px solid ;
+    border-color: rgb(11, 248, 50);
+}
+.mainka-logo2{
+    background-image: url("girl6.jpg");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 25px;
+    border: 3px solid ;
+    border-color: rgb(11, 248, 43);
+}
+.mainka-logo3{
+    background-image: url("girl5.webp");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 25px;
+    border: 3px solid ;
+    border-color: rgb(11, 248, 62);
+}
+.mainka-logo4{
+    background-image: url("girl4.jpg");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 25px;
+    border: 3px solid ;
+    border-color: rgb(19, 248, 11);
+}
+.mainka-logo5{
+    background-image: url("girl3.jpg");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 25px;
+    border: 3px solid ;
+    border-color: rgb(11, 248, 46);
+}
+.mainka-logo6{
+    background-image: url("girl2.jpg");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 25px;
+    border: 3px solid ;
+    border-color: rgb(11, 248, 82);
+}
+.mainka-logo7{
+    background-image: url("virat.jpg");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 25px;
+    border: 3px solid ;
+    border-color: rgb(11, 248, 35);
+}
+.post{
+    background-color:rgb(6, 7, 6);
+    margin-left: 180px;
+    padding-top: 10px;
+    
+   
+}
+.post-logo{
+    background-image: url("girl1.jpg");
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 12px;
+    border: 2px solid white;
+    
+}
+.paragraph{
+    
+    background-color:rgb(19, 2, 2);
+    display: flex;
+    font-size: 15px;
+}
+.namee{
+   margin-left: 45px;
+   margin-top: 10px;
+}
+.sarah{
+   margin-top: 10px;
+}
+#ii{
+    margin-left: 420px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+#notes{
+    margin-left: 16px;
+    margin-top: 7px;
+    color: #fbf6f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.video{
+    background-color: rgb(7, 14, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(35, 35, 35);
+    margin-left: 150px;
+    
+}
+.likeby{
+    background-color: rgb(10, 13, 13);
+    display: flex;
+    font-size: 30px;
+    padding: 8px;
+}
+.heart{
+    margin-left: 180px;
+}
+.comment{
+    margin-left: 20px;
+}
+.share{
+    margin-left: 20px;
+}
+.savee{
+    margin-left: 450px;
+}
+.detail{
+    
+    background-color: rgb(3, 8, 3);
+}
+.smalllogo{
+    height: 40px;
+    padding-top: 10px;
+    background-color: rgb(1, 3, 3);
+    display: flex;
+   
+}
+.detail-logo{
+    background-image: url("Jack.png");
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 150px;
+    
+}
+#hh{
+    margin-left: 146px;
+
+}
+#mm{
+    margin-left: 146px;
+    
+}
+#nn{
+    margin-left: 146px;
+    
+}
+
+.menupage{
+    height: 712px;
+    width: 437px;
+    background-color: rgb(6, 5, 2);
+    color: white;
+}
+.menupage-logo{
+    height: 80px;
+    background-color: rgb(11, 10, 10);
+    color: white;
+    display: flex;
+    border-left: 1px solid rgb(60, 59, 59);
+   
+}
+.menulogo1{
+    background-image: url("mypic.jpg");
+    background-size: cover;
+    height: 53px;
+    width: 53px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 20px;
+    
+}
+.profilename1{
+    margin-top: 27px;
+    margin-left: 10px;
+}
+.switch{
+    margin-top: 37px;
+    margin-left: 50px;
+    color: blue;
+}
+.seeall-option{
+    height: 50px;
+    background-color: black;
+    border-left: 1px solid rgb(60, 59, 59);
+    display: flex;
+}
+.suggest{
+    margin-left: 85px;
+    padding-top: 12px;
+    
+}
+.all-option{
+    margin-left: 140px;
+    padding-top: 12px;
+    
+}
+.menulogo2{
+    background-image: url("megan.png");
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 10px;
+    
+}
+.profilename2{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.switch1{
+    margin-top: 30px;
+    margin-left: 115px;
+    color: blue;
+}
+.menulogo3{
+    background-image: url("cameron.png");
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+.profilename3{
+    margin-left: 20px;
+}
+.switch2{
+    margin-top: 10px;
+    margin-left: 105px;
+    color: blue;
+}
+.menulogo4{
+    background-image: url("story1.jpg");
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 90px;
+    
+}
+.profilename4{
+    margin-left: 20px;
+}
+.switch3{
+    
+    margin-left: 80px;
+    color: blue;
+}
+.menulogo5{
+    background-image: url("girl8.jpg");
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 90px;
+    
+    
+}
+.profilename5{
+     margin-left: 20px;
+}
+.switch4{
+    
+    margin-left: 30px;
+    color: blue;
+}
+.menulogo6{
+    background-image: url("Jack.png");
+    background-size: cover;
+    height:45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 90px;
+   
+    
+}
+.profilename6{
+    margin-left: 20px;
+}
+.switch5{
+    
+    margin-left: 90px;
+    color: blue;
+}
+.menulogo7{
+    background-image: url("gerard.png");
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 90px;
+    
+    
+}
+.profilename7{
+     margin-left: 20px;
+}
+.switch6{
+    
+    margin-left: 55px;
+    color: blue;
+}
+.menulogo8{
+    background-image: url("sachin.jpg");
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 90px;
+    
+    
+}
+.profilename8{
+     margin-left: 20px;
+}
+.switch7{
+    margin-left: 80px;
+    color: blue;
+}
+.menulogo9{
+    background-image: url("dhoni.jpg");
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-left: 90px;
+    
+    
+}
+.profilename9{
+   margin-left: 20px;
+}
+.switch8{
+    margin-left: 115px;
+    color: blue;
+}
+
+
+.footer1{
+    padding-top: 15px;
+    padding-left: 160px;
+    height: 130px;
+    background-color: rgb(139, 142, 142);
+    font-weight: 300;
+    color: rgb(21, 6, 240);
+    border-left: 1px solid rgb(81, 77, 77);
+}
+.social-iconsss{
+    
+    background-color: rgb(8, 5, 1);
+    display: flex;
+    font-size: 25px;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 10px;
+
+}
+.social-iconsss1{
+    background-color: rgb(9, 7, 5);
+    display: flex;
+    font-size: 25px;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 10px;
+}
+.social-iconsss1:hover{
+    background-color: blue;
+}
+.social-iconsss:hover{
+    background-color: blue;
+}
+
+.lastdivforspace{
+    height: 20px;
+    background-color: rgb(4, 5, 6);
+}
+
+
+
